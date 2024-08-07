@@ -1,0 +1,19 @@
+@import "../../lib/theme/variables.scss";
+
+.progressBar {
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 12px;
+	border-radius: 8px;
+	overflow: hidden;
+
+	.progressBarInner {
+		width: 0px;
+		background-color: #f1c40f;
+		height: 100%;
+		transition: width 0.3s;
+
+		&.filled {
+			background-color: $success-color;
+		}
+	}
+}

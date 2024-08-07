@@ -1,0 +1,41 @@
+.quizWrapper {
+	width: 900px;
+	max-width: 80%;
+
+	.quizHeader {
+		.quizTitle {
+			font-size: 4rem;
+			margin-bottom: 0px;
+		}
+
+		.questionCount {
+			font-style: italic;
+			color: #666;
+			margin-left: auto;
+		}
+	}
+
+	.quizImage {
+		width: 100%;
+		max-height: 400px;
+		object-fit: cover;
+		border-radius: 4px;
+	}
+
+	.questionWrapper {
+		display: none;
+
+		&.active {
+			display: block;
+		}
+	}
+}
+
+.contentWrapper {
+	opacity: 1;
+	transition: opacity 0.3s;
+
+	&.loading {
+		opacity: 0;
+	}
+}

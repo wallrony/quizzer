@@ -1,0 +1,9 @@
+@import "../../lib/theme/variables.scss";
+
+.page {
+	height: 100%;
+	$header-height: 70px;
+
+	height: calc(100% - $header-height);
+	padding-inline: 3rem;
+}

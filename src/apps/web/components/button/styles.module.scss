@@ -1,0 +1,61 @@
+@import "../../lib/theme/variables.scss";
+
+.button {
+	width: fit-content;
+	min-width: 100px;
+
+	padding: 0.5rem 1rem;
+	font-size: 1.05rem;
+
+	border-radius: 3px;
+	border: none;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+
+	cursor: pointer;
+
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+
+	&:hover {
+		box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+	}
+
+	&.default {
+		color: black;
+		background-color: white;
+	}
+
+	&.primary {
+		color: white;
+		background-color: $primary-color;
+	}
+
+	&.danger {
+		color: white;
+		background-color: $danger-color;
+	}
+
+	&.success {
+		color: white;
+		background-color: $success-color;
+	}
+
+	&.link {
+		min-width: unset;
+		padding: 0.5rem 1rem;
+		background-color: transparent;
+		box-shadow: none;
+	}
+
+	&.ghost {
+		min-width: unset;
+		background-color: #ffffff70;
+
+		&:hover {
+			box-shadow: none;
+		}
+	}
+}

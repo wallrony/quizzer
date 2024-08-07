@@ -1,0 +1,32 @@
+.quizGrid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 16px;
+
+	@media (max-width: 992px) {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	@media (max-width: 768px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (max-width: 600px) {
+		grid-template-columns: 1fr;
+	}
+
+	.quizCard {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+
+		.quizDescription {
+			font-size: 0.875rem;
+		}
+
+		.answeredQuestionTag {
+			margin-top: auto;
+		}
+	}
+}

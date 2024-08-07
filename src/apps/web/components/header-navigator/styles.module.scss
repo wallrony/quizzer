@@ -1,0 +1,25 @@
+.headerNavigator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-left: auto;
+
+	gap: 8px;
+
+	button {
+		border-bottom: 2px solid transparent;
+
+		&:hover:not(.active) {
+			border-bottom: 2px solid black;
+		}
+
+		a {
+			padding: 0.25rem 0.5rem;
+
+			text-decoration: none;
+
+			transition: all 0.3s;
+		}
+	}
+}

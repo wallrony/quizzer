@@ -1,0 +1,50 @@
+{
+	"id": "fe0c257d-72e0-4e1f-9953-191b8e5f3940",
+	"title": "Meaning of life",
+	"image": "https://th.bing.com/th/id/OIP.CrkhdiLifZU3AA8PDTU-NwHaEo?rs=1&pid=ImgDetMain",
+	"description": "In this quiz we can see your thoughts about the meaning of life. That's not a thing too many people complains for, but that might be interesting to see what you think about it.",
+	"questions": [
+		{
+			"title": "What matters in your life?",
+			"options": [
+				"Time - It's important of having time sense of everything we do.",
+				"Happiness - It's important to be happy with what we do.",
+				"Money - It's important to have money to do what we want."
+			],
+			"type": "multiple_choice",
+			"correctAnswer": [0],
+			"actions": {
+				"jumpTo": {
+					"answer": [0],
+					"question": 2
+				}
+			}
+		},
+		{
+			"title": "Money is important for you?",
+			"image": "https://th.bing.com/th/id/OIP.Oh9b3kP25xyBUBuw_4oOOAHaE8?rs=1&pid=ImgDetMain",
+			"options": [
+				"Yes, because with money we can have less stress",
+				"No, because money is not everything",
+				"Maybe, I don't know"
+			],
+			"type": "single_choice",
+			"correctAnswer": 0
+		},
+		{
+			"title": "When time is urgent to keep in mind?",
+			"image": "https://th.bing.com/th/id/OIP.zYQrf-6J1hHfKodzo2SfNQHaE8?rs=1&pid=ImgDetMain",
+			"options": [
+				"When we are late",
+				"When we are dealing with health issues",
+				"When we are in set of meetings"
+			],
+			"type": "single_choice",
+			"correctAnswer": 0
+		},
+		{
+			"title": "Tell us more about your thoughts about time and money :)",
+			"type": "custom_answer"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+.code {
+	padding: 0.2rem;
+
+	background-color: rgba(0, 0, 0, 0.2);
+	overflow-x: auto;
+
+	&:not(.compact) {
+		padding: 0.5rem;
+	}
+
+	&.noColor {
+		background-color: transparent;
+	}
+
+	pre {
+		margin-block: 0px;
+	}
+}

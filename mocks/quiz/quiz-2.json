@@ -1,0 +1,54 @@
+{
+	"id": "a9c3d3e2-92f5-4c5d-834f-18d1b9b5ed15",
+	"title": "Sustainability and Environment",
+	"image": "https://th.bing.com/th/id/R.bde080096059ddcb41dc48c468c787ef?rik=35BuJTMUuffIUg&pid=ImgRaw&r=0",
+	"description": "In this quiz, we will explore your opinions on sustainability and environmental preservation. It is an important topic today, and we would like to know what you think about it.",
+	"questions": [
+		{
+			"title": "What do you think is the most important action for sustainability?",
+			"image": "https://cdn-images-1.medium.com/max/2000/1*4Lhrflmjpjz0_Hb-dsEe6A.jpeg",
+			"options": ["Reducing waste", "Recycling", "Using renewable energy"],
+			"type": "multiple_choice",
+			"correctAnswer": [0],
+			"actions": {
+				"jumpTo": {
+					"answer": [0],
+					"question": 2
+				}
+			}
+		},
+		{
+			"title": "Do you believe that climate change is a serious issue?",
+			"image": "https://th.bing.com/th/id/OIP.Ok_q2NPaRv2mvlIKflAnlwHaE8?rs=1&pid=ImgDetMain",
+			"options": [
+				"Yes, it is a major concern",
+				"No, it is exaggerated",
+				"Not sure, I need more information"
+			],
+			"type": "single_choice",
+			"correctAnswer": 0
+		},
+		{
+			"title": "Which renewable energy source do you find most promising?",
+			"image": "https://th.bing.com/th/id/R.c71e9e7337a404a299363ec380bd5b83?rik=OrdB06e6woi4lw&pid=ImgRaw&r=0",
+			"options": ["Solar power", "Wind power", "Hydropower"],
+			"type": "single_choice",
+			"correctAnswer": 0
+		},
+		{
+			"title": "What are your thoughts on reducing plastic usage?",
+			"type": "custom_answer"
+		},
+		{
+			"title": "Do you think individual actions can make a significant impact on the environment?",
+			"image": "https://thumbs.dreamstime.com/z/volunteers-cooperating-together-cleaning-up-city-park-collecting-separating-waste-environmental-protection-166463253.jpg",
+			"options": [
+				"Yes, every action counts",
+				"No, systemic change is needed",
+				"Both individual and systemic changes are necessary"
+			],
+			"type": "single_choice",
+			"correctAnswer": 0
+		}
+	]
+}
